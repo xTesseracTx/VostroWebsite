@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+	width: 80%;
+	position: absolute;
+	
+	
+}
+body {
+	background-image: url('images/brick1.jpg');	
+}
+h1 {
+	position: absolute;
+	text-indent: -9999px;
+}
+a:link {
+	color: #1aa29a;		/* green */
+	text-decoration: none;
+}
+a:visited {
+	color: #1aa29a;		/* green */
+	
+}
+a:hover {
+	color: #fff;
+}
+
+	
+#logo {
+	height: 281px;
+	width: 280px;
+	position: fixed;
+	top: 5px;
+	left: 25px;
+	z-index: 9;
+}
+#nav ul {
+	list-style-type: none;
+	margin: -10px -10px 0 -10px;
+	padding: 20px;
+	background: #232323;	
+	
+}
+#nav li {
+	display: inline;
+	float: right;
+	text-decoration: none;
+}
+#nav li a {
+	display: block;
+	padding: 0 20px 0 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #1aa39a;		/* green */
+}
+
+#nav li a:hover {
+	color: #fff;			
+}
+#footer {
+	width: 100%;
+	margin: 971px -10px -10px -10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #232323;
+	color: #fff;
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 15px;
+	left: 565px;
+	border-top: #575858 solid 3px;
+	border-bottom: #575858 solid 3px;
+	border-right: #c7c7c7 solid 2px;
+	border-left: #c7c7c7 solid 2px;
+	
+}
+.tripadvisor {
+	width: 40px;
+	height: 39px;
+	position: absolute;
+	top: 15px;
+	left: 625px;
+	border-top: #575858 solid 3px;
+	border-bottom: #575858 solid 3px;
+	border-right: #c7c7c7 solid 2px;
+	border-left: #c7c7c7 solid 2px;
+}
+.email {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 15px;
+	left: 685px;
+	border-top: #575858 solid 3px;
+	border-bottom: #575858 solid 3px;
+	border-right: #c7c7c7 solid 2px;
+	border-left: #c7c7c7 solid 2px;
+}
+.contact {
+	position: absolute;
+	width: 350px;
+	height: 552px;
+	top: 70px;
+	left: 375px;
+	border-top: #575858 solid 3px;
+	border-bottom: #575858 solid 3px;
+	border-right: #c7c7c7 solid 2px;
+	border-left: #c7c7c7 solid 2px;
+
+}
+.location {
+	position: absolute;
+	width: 700px;
+	height: 338px;
+	top: 627px;
+	left: 25px;
+	border-top: #575858 solid 3px;
+	border-bottom: #575858 solid 3px;
+	border-right: #c7c7c7 solid 2px;
+	border-left: #c7c7c7 solid 2px;
+}
+
